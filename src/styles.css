@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "League Spartan", sans-serif;
+  font-size: 15px;
 
   --dark-magenta: hsl(300, 43%, 22%);
   --soft-pink: hsl(333, 80%, 67%);
