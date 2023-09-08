@@ -17,7 +17,7 @@
 }
 
 body {
-  background-image: url("../images/bg-pattern-top.svg"),
+  background-image: url("/src/assets/images/bg-pattern-bottom-desktop.svg"),
     url("../images/bg-pattern-bottom.svg");
 
   display: flex;
