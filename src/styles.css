@@ -17,14 +17,13 @@
 }
 
 body {
-  background-image: url("/src/assets/images/bg-pattern-bottom-desktop.svg"),
-    url("../images/bg-pattern-bottom.svg");
-
+  background-image: url("./assets/images/bg-pattern-bottom-desktop.svg");
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-repeat: no-repeat;
+
+  background-size: cover;
 }
 
 h1 {
