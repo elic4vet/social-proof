@@ -257,8 +257,6 @@ h1 {
   }
 
   .left-content p {
-    color: var(--dark-grayish-magenta);
-    font-weight: var(--fw-medium);
     font-size: 1.2rem;
   }
 
@@ -276,9 +274,6 @@ h1 {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: var(--light-grayish-magenta);
-    color: var(--dark-magenta);
-    font-weight: var(--fw-bold);
     border-radius: 10px;
     padding: 5px 90px 5px 7px;
     text-align: center;
@@ -289,9 +284,6 @@ h1 {
 
   .report,
   .bestTech {
-    background-color: var(--light-grayish-magenta);
-    color: var(--dark-magenta);
-    font-weight: var(--fw-bold);
     border-radius: 10px;
     padding: 0.5rem;
     padding-left: 50px;
