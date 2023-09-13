@@ -210,6 +210,11 @@ h1 {
     font-weight: var(--fw-bold);
     font-size: 2rem;
     margin-top: 100px;
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
   }
 
   .card {
@@ -274,31 +279,31 @@ h1 {
     align-items: center;
     gap: 1rem;
   }
-
   .reviews {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    border-radius: 10px;
-    padding: 5px 90px 5px 7px;
-    text-align: center;
-    width: 250px;
-    height: 30px;
-    margin-bottom: 20px;
+    justify-content: flex-start;
+    padding-left: 7px;
   }
 
+  .bestTech {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 7px;
+  }
+
+  .reviews,
   .report,
   .bestTech {
-    border-radius: 10px;
-    padding: 0.5rem;
-    padding-left: 50px;
-    padding-right: 50px;
-    gap: 10px;
-    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 0px;
+    margin-left: 0px;
+    width: 287px;
   }
-
   .attribution {
     display: flex;
     flex-direction: column;
