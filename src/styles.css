@@ -203,23 +203,17 @@ h1 {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
 
   h1 {
     color: var(--dark-magenta);
     font-weight: var(--fw-bold);
     font-size: 2rem;
-    display: flex;
-    flex-direction: column;
     margin-top: 100px;
   }
 
   .card {
     width: 300px;
-    margin: 0 auto;
   }
 
   .card1 {
@@ -303,5 +297,12 @@ h1 {
     padding-right: 50px;
     gap: 10px;
     margin-bottom: 20px;
+  }
+
+  .attribution {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
   }
 }
